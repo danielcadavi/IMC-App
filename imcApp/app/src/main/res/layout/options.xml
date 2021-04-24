@@ -23,34 +23,25 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Opciones"
             android:textSize="24sp"
             android:visibility="visible"
-            tools:layout_editor_absoluteX="144dp"
-            tools:layout_editor_absoluteY="201dp" />
-
-        <Button
-            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calculadora IMC"
-            tools:layout_editor_absoluteX="117dp"
-            tools:layout_editor_absoluteY="274dp" />
+            android:layout_gravity="center_horizontal" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="177dp"
-            android:layout_height="59dp"
-            android:text="Información nutricional"
-            tools:layout_editor_absoluteX="120dp"
-            tools:layout_editor_absoluteY="343dp" />
+            android:id="@+id/calculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculadora IMC" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/acercade"
             android:layout_width="179dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:text="Acerca de" />
 
 

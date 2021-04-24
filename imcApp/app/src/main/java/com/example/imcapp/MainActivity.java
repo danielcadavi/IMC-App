@@ -20,24 +20,24 @@ public class MainActivity extends AppCompatActivity {
               TextView editPeso = (TextView) findViewById(R.id.editPeso);
               TextView editAltura = (TextView)findViewById(R.id.editAltura);
               TextView tvResultado = (TextView) findViewById(R.id.tvResultado);
-              TextView tvDescricao = (TextView) findViewById(R.id.tvDescricao);
+              TextView tvDescripcion = (TextView) findViewById(R.id.tvDescripcion);
               int peso = Integer.parseInt(editPeso.getText().toString());
               float altura = Float.parseFloat(editAltura.getText().toString());
               imc[0] = peso / (altura * altura);
               if(imc[0]<18.5){
                   tvResultado.setText(imc[0]+"");
-                  tvDescricao.setText("Bajo en peso");
+                  tvDescripcion.setText("Bajo en peso");
               }else{
                   if(imc[0]<25){
                       tvResultado.setText(imc[0]+"");
-                      tvDescricao.setText("Peso Normal");
+                      tvDescripcion.setText("Peso Normal");
                   }else{
                       if(imc[0]<30){
                           tvResultado.setText(imc[0]+"");
-                          tvDescricao.setText("Sobrepeso");
+                          tvDescripcion.setText("Sobrepeso");
                       }else{
                           tvResultado.setText(imc[0]+"");
-                          tvDescricao.setText("Obsidad");
+                          tvDescripcion.setText("Obsidad");
 
                       }
 
